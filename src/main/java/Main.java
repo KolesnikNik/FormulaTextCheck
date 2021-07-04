@@ -1,3 +1,4 @@
+
 public class Main {
     public static void main(String[] args) {
 
@@ -8,13 +9,12 @@ public class Main {
         String test5 = "(asda+dfasf)(fsdf-afdsa)";
         String test6 = "(((asda+dfasf)))";
 
-        BracketChecker bk = new BracketChecker();
 
-        System.out.println(test1 + " " + bk.test(test1));
-        System.out.println(test2 + " " + bk.test(test2));
-        System.out.println(test3 + " " + bk.test(test3));
-        System.out.println(test4 + " " + bk.test(test4));
-        System.out.println(test5 + " " + bk.test(test5));
-        System.out.println(test6 + " " + bk.test(test6));
+        System.out.println(test1 + " " + BracketChecker.test(test1));
+        System.out.println(test2 + " " + BracketChecker.test(test2));
+        System.out.println(test3 + " " + BracketChecker.test(test3));
+        System.out.println(test4 + " " + BracketChecker.test(test4));
+        System.out.println(test5 + " " + BracketChecker.test(test5));
+        System.out.println(test6 + " " + BracketChecker.test(test6));
     }
 }
